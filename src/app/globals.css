@@ -27,6 +27,7 @@
 .header-img {
   width: 390px;
   height: auto;
+  cursor: default;
 }
 
 .lightbulb {
@@ -65,6 +66,49 @@
 
 .header-socials-container > a {
   padding: 1rem;
+}
+
+.header-socials-container {
+  position: relative;
+}
+
+.header-socials-container div {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-radius: 6px;
+  padding: 8px 0;
+  min-width: 150px;
+  z-index: 10;
+  display: none;
+}
+
+.header-socials-container:hover div {
+  display: block;
+}
+
+.header-socials-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-socials-container ul li {
+  padding: 6px 12px;
+}
+
+.header-socials-container ul li:hover {
+  background-color: #292929;
+  border-radius: 12px;
+}
+
+body.dark {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark .header {
+  background-color: #ffffff;
 }
 
 /* ------------------------- Main -------------------------*/
@@ -235,4 +279,56 @@
   opacity: 0.5;
 }
 
+/* ------------------------- Experience -------------------------*/
+
+.experience-container > h1 {
+  color: #d4e6b6;
+  color: lab(82.1422% -30.0457 12.1662);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  width: 60%;
+}
+
+.experience-container ul {
+  list-style-type: disc;
+  padding-left: 3rem;
+}
+
+.experience-container ol {
+  padding-left: 2rem;
+}
+
 /* ------------------------- Footer -------------------------*/
+.footer > h2 {
+  color: #d4e6b6;
+  color: lab(82.1422% -30.0457 12.1662);
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer hr {
+  border: none;
+  height: 2px;
+  background-color: #777777;
+  width: 60%;
+  margin: 0 auto 20px;
+}

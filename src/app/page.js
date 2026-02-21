@@ -1,10 +1,11 @@
 import Portfolio from "./components/Portfolio";
+import Experience from "./components/Experience";
 
 export default function Home() {
   return (
     <>
       <div className="main-container">
-        <div className="about-container">
+        <div id="about" className="about-container">
           <div class="hero-img-wrapper">
             <img
               src="linkedInProfilePic.png"
@@ -76,6 +77,7 @@ export default function Home() {
         </div>
       </div>
       <Portfolio />
+      <Experience />
     </>
   );
 }

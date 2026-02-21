@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Portfolio() {
   return (
     <>
-      <div className="portfolio-container">
+      <div id="portfolio" className="portfolio-container">
         <h1>Portfolio</h1>
         <div className="feature-card">
           <div className="feature-tag-container">
@@ -23,7 +23,10 @@ export default function Portfolio() {
             <p className="feature-tag">Motion</p>
           </div>
           <div className="feature-links-container">
-            <Link className="feature-link" href={`/`}>
+            <Link
+              className="feature-link"
+              href={`https://portfolio-khaki-rho-47.vercel.app/`}
+            >
               View Website
             </Link>
           </div>

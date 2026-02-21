@@ -6,7 +6,7 @@ export default function Header() {
       <div className="header-about-container">
         <Link href={`/`}>About</Link>
         <Link href={`/`}>Portfolio</Link>
-        <Link href={`/`}>Résumé</Link>
+        <Link href={`/AdamBoothCV.pdf`}>Résumé</Link>
       </div>
       <div className="header-img-container">
         <img

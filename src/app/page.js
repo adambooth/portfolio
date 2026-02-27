@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div className="main-container">
         <div id="about" className="about-container">
-          <div class="hero-img-wrapper">
+          <div className="hero-img-wrapper">
             <img
               src="linkedInProfilePic.png"
               alt="Header image"

@@ -66,7 +66,7 @@ export default function Portfolio() {
             </div>
             <div className="feature-details">
               <h2>Shopper</h2>
-              <p>Stripe Implementaion</p>
+              <p>Clothing Website Using Stripe</p>
             </div>
             <div className="feature-img-container">
               <img src="Shopper.png" alt="feature-img" />
@@ -80,6 +80,31 @@ export default function Portfolio() {
               <Link
                 className="feature-link"
                 href={`https://shopper-rho-rosy.vercel.app/`}
+              >
+                View Website
+              </Link>
+            </div>
+          </div>
+          <div className="feature-card">
+            <div className="feature-tag-container">
+              <p className="feature-tag">Own Project</p>
+              <p className="feature-tag">Solo</p>
+            </div>
+            <div className="feature-details">
+              <h2>The Fake Cake Company</h2>
+              <p>Shopify Run Business Website</p>
+            </div>
+            <div className="feature-img-container">
+              <img src="FakeCakePng.png" alt="feature-img" />
+            </div>
+            <div className="feature-skills-container">
+              <p className="feature-tag">Shopify</p>
+              <p className="feature-tag">Commercial</p>
+            </div>
+            <div className="feature-links-container">
+              <Link
+                className="feature-link"
+                href={`https://thefakecakecompany.com/`}
               >
                 View Website
               </Link>

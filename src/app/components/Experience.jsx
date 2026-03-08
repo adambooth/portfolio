@@ -2,6 +2,17 @@ export default function Experience() {
   return (
     <>
       <div id="experience" className="experience-container">
+        <h1>In-Progress Experience</h1>
+        <ol>
+          <li>
+            <strong>
+              BSc Honours Computing and IT Software | Open-University | Present
+              - 11/04/2026
+            </strong>
+          </li>
+        </ol>
+      </div>
+      <div id="experience" className="experience-container">
         <h1>Experience</h1>
         <ol>
           <li>
